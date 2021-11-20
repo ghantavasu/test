@@ -14,7 +14,7 @@ node{
       
    }
    stage('Snyk'){
-        snykSecurity failOnIssues: false, organisation: '0a9abaf4-c5e7-4e79-bd0d-94090771174a', snykInstallation: 'Snyk', snykTokenId: 'snykkey'
+        snykSecurity failOnIssues: false, organisation: 'a1c68847-d2a0-4a25-84ce-8b9de47cdd69', snykInstallation: 'Snyk', snykTokenId: 'snykkey'
        
    }
 
